@@ -13,3 +13,6 @@ class CustomUser(AbstractUser):
     organization = models.CharField('Организация', max_length=100, blank=True, null=True)
     department = models.TextField('Отдел', blank=True, null=True)
 
+
+# class our_city_db(models):
+#     pass
